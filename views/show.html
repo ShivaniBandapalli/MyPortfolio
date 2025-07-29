@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="/images/faviconround.png">
+  <title>My Projects | Shivani</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="/css/show.css" />
+</head>
+<body>
+  
+  <header class="sticky-header">
+    <h1>My Projects | <a href="/index.html">Home</a></h1>
+    <p>Explore some of my best work</p>
+  </header>
+
+  <nav class="project-nav">
+  <button onclick="scrollToSection('weather')">React-Weather App</button> 
+  <button onclick="scrollToSection('airbnb')">Airbnb Clone</button>
+  <button onclick="scrollToSection('image')">Image Steganography</button>
+  <button onclick="scrollToSection('crop')">Crop Recommender</button>
+  <button onclick="scrollToSection('iris')">Iris classification</button>
+  <button onclick="scrollToSection('movie')">Movie-Recommender</button>
+  <button onclick="scrollToSection('tictactoe')">Tic-Tac-Toe</button>
+  </nav>
+
+  <main>
+
+    <section class="project-section" id="weather">
+      <h2><i class="fa-solid fa-cloud-moon-rain" style="color: #80cdfa;"></i>&nbsp;React-Weather App</h2>
+      <p class="project-desc">
+        The React Weather App is a modern, responsive web application that allows users to check current weather
+        conditions for any city in the world. It is built using React.js, styled with Material UI components,
+        and fetches real-time weather data from the OpenWeatherMap API.
+      </p>
+      <a href="https://github.com/ShivaniBandapalli/React-Weather-app" style="color: #80cdfa; text-decoration: none;">GitHub<i class="fab fa-github"></i></a>
+      &nbsp;&nbsp;<a href="https://shivanibandapalli.github.io/React-Weather-app/" style="color: #80cdfa; text-decoration: none;">Go Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      <div class="swiper project-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/images/projects/weather1.webp" alt="Project 1 Screenshot 1"></div>
+          <div class="swiper-slide"><img src="/images/projects/weather2.png" alt="Project 1 Screenshot 2"></div>
+          <div class="swiper-slide"><img src="/images/projects/weather 3.png" alt="Project 1 Screenshot 3"></div>
+          <div class="swiper-slide"><img src="/images/projects/weather4.png" alt="Project 1 Screenshot 4"></div>
+          <div class="swiper-slide"><img src="/images/projects/weather5.png" alt="Project 1 Screenshot 5"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="techstack">
+        <h3 style="color: #80cdfa;"><i class="fa-solid fa-code"></i> &nbsp;&nbsp;Tech Stack</h3>
+        <ul>
+          <li><b>Frontend :</b>React.js, JavaScript (ES6+), HTML5, CSS3</li>
+          <li><b>UI library:</b>Material UI (MUI)</li>
+          <li><b>API :</b>OpenWeatherMap API</li>
+          <li><b>Bundler :</b> Vite</li>
+          <li><b>Deployment :</b>GitHub Pages</li>
+          <li><b>Version Control :</b>Git & GitHub</li>
+        </ul>
+      </div>
+      <div class="features">
+        <h3 style="color: #80cdfa;"><i class="fa-regular fa-lightbulb"></i>&nbsp;Features</h3>
+        <ul>
+          <li>
+            <i class="fa-solid fa-magnifying-glass"></i>&nbsp;<b>Search by City</b>
+            <ul>
+              <li>
+                Users can enter any city name to get current weather information.
+              </li>
+            </ul>
+          </li>
+           <li>
+            <i class="fa-solid fa-globe"></i>&nbsp;<b>Real-Time Weather Data</b>
+            <ul>
+              <li>
+                Fetches and displays up-to-date weather details like temperature, humidity, weather condition, feels like, etc.
+              </li>
+            </ul>
+          </li>
+           <li>
+            <i class="fa-solid fa-palette"></i>&nbsp;<b> Material UI Components</b>
+            <ul>
+              <li>
+                Clean, responsive interface using Material UI cards, typography, input fields, and icons for a polished user experience.
+              </li>
+            </ul>
+          </li>
+           <li>
+            <i class="fa-solid fa-temperature-high"></i>&nbsp;<b>Weather Icons</b>
+            <ul>
+              <li>
+                Weather condition icons dynamically change based on the API response.
+              </li>
+            </ul>
+          </li>
+           <li>
+           <i class="fa-solid fa-mobile-screen-button"></i>&nbsp;<b>Responsive Design</b>
+            <ul>
+              <li>
+                Optimized for all screen sizes (mobile, tablet, and desktop).
+              </li>
+            </ul>
+          </li>
+          <li>
+            <i class="fa-solid fa-triangle-exclamation"></i>&nbsp;<b>Error Handling</b>
+            <ul>
+              <li>
+                Gracefully handles invalid city input or API errors with user-friendly messages.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="project-section" id="airbnb">
+      <h2><i class="fa-brands fa-airbnb" style="color: #ff5a5f;"></i>&nbsp;Airbnb Clone – Full Stack Booking Platform</h2>
+      <p class="project-desc">
+        A full-fledged, responsive vacation rental web application inspired by Airbnb. The platform allows users to explore, list, and book accommodations seamlessly, built with modern web development technologies.
+      </p>
+      <a href="https://github.com/ShivaniBandapalli/Airbnb-Clone" style="color: #ff5a5f; text-decoration: none;">GitHub<i class="fab fa-github"></i></a>
+      &nbsp;&nbsp;<a href="https://airbnb-clone-142q.onrender.com/" style="color: #ff5a5f; text-decoration: none;">Go Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      <div class="swiper project-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/images/projects/p11.png" alt=" Screenshot 1"></div>
+          <div class="swiper-slide"><img src="/images/projects/p14.png" alt=" Screenshot 1"></div>
+          <div class="swiper-slide"><img src="/images/projects/p12.png" alt=" Screenshot 2"></div>
+          <div class="swiper-slide"><img src="/images/projects/p15.png" alt=" Screenshot 1"></div>
+          <div class="swiper-slide"><img src="/images/projects/p13.png" alt=" Screenshot 2"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <br>
+      <div class="techstack">
+        <h3 style="color: #ff5a5f;"><i class="fa-solid fa-code"></i> &nbsp;&nbsp;Tech Stack</h3>
+        <ul>
+            <li><b>Frontend:</b> HTML, CSS, JavaScript, EJS (Embedded JavaScript)</li>
+            <li><b>Backend:</b> Node.js, Express.js</li>
+            <li><b>Database:</b> MongoDB (with Mongoose ODM)</li>
+            <li><b>Authentication:</b> Passport.js (Local Strategy)</li>
+            <li><b>Image Handling: </b>Cloudinary for secure image uploads</li>
+            <li><b>Maps & Location:</b> Mapbox for geocoding and interactive maps</li>
+            <li><b>Deployment: </b>Render</li>
+        </ul>
+    </div>
+    <div class="features">
+        <h3 style="color: #ff5a5f;"><i class="fa-regular fa-lightbulb"></i>&nbsp;Key Features</h3>
+        <ul>
+            <li>
+                <b>User Authentication & Autherization:</b>
+                <ul>
+                    <li>Secure login and signup system using Passport.js</li>
+                    <li>Session handling with express-session</li>
+                    <li>ole-based access: only users who created a listing can edit/delete it</li>
+                </ul>
+            </li>
+            <li>
+                <b>CRUD Operations on Listings</b>
+                <ul>
+                    <li>Create new property listings with images and location</li>
+                    <li>Edit and delete functionality protected by user ownership</li>
+                    <li>Listings displayed with map location, price, description, and reviews</li>
+                </ul>
+            </li>
+            <li>
+                <b>Review System</b>
+                <ul>
+                    <li>Authenticated users can add/edit/delete reviews</li>
+                    <li>Star ratings and comments for each property</li>
+                </ul>
+            </li>
+            <li>
+                <b>Cloudinary Integration</b>
+                <ul>
+                    <li>Efficient image upload and storage via Cloudinary</li>
+                    <li>Supports multiple images per listing</li>
+                </ul>
+            </li>
+            <li>
+                <b>Map Box Integration</b>
+                <ul>
+                    <li>Interactive maps to show property location</li>
+                    <li>Auto-geocoding based on address</li>
+                </ul>
+            </li>
+            <li>
+                <b>Form Validations & Middlewares</b>
+                <ul>
+                    <li>Express middleware for route protection</li>
+                    <li>Server-side validation using Joi</li>
+                    <li>Error handling for unexpected input or access</li>
+                </ul>
+            </li>
+            <li>
+                <b>UI/UX</b>
+                <ul>
+                    <li>Clean, mobile-responsive layout</li>
+                    <li>Pagination, flash messages, user-friendly alerts</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </section>
+
+    <section class="project-section" id="image">
+      <h2><i class="fa-solid fa-image" style="color: #3498db;"></i> &nbsp;Image Steganography using Convolutional Neural Networks (CNN) Basedd Encoder-Decoder Model</h2>
+      <p class="project-desc">
+         A deep learning-based image steganography system using a CNN-based encoder-decoder architecture. 
+         It enables hiding and retrieving secret messages or images within a cover image, making communication secure and invisible to intruders.
+      </p>
+      <a href="https://github.com/ShivaniBandapalli/Image-steganography-with-CNN-based-encoder-decoder-model" style="color: #3498db; text-decoration: none;">GitHub<i class="fab fa-github"></i></a>
+      <div class="swiper project-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/images/imgstegano.png" alt="Project 1 Screenshot 1" style="width: 500px;"></div>
+          <div class="swiper-slide"><img src="/images/projects/image1.png" alt="Screenshot 1"></div>
+          <div class="swiper-slide"><img src="/images/projects/image2.png" alt="Screenshot 2"></div>
+          <div class="swiper-slide"><img src="/images/projects/image3.png" alt="Screenshot 3"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="techstack">
+        <h3 style="color: #3498db;"><i class="fa-solid fa-code"></i> &nbsp;&nbsp;Tech Stack</h3>
+        <p>Python, TensorFlow, Keras, OpenCV, Django, HTML, CSS, MySQL</p>
+      </div>
+      <div class="working">
+        <h3 style="color: #3498db;"><i class="fa-solid fa-gear"></i>&nbsp; Working</h3>
+        <ul>
+            <li><b>Encoder Network:</b>Merges a secret message with a cover image to generate a stego-image using CNN layers.</li>
+            <li><b>Decoder Network:</b>Recovers the hidden message from the stego-image using trained CNN layers.</li>
+            <li>The model uses <b>one-hot encoding</b> for messages and CNNs to learn embedding patterns.</li>
+        </ul>
+      </div>
+      <div class="features">
+        <h3 style="color: #3498db;"><i class="fa-regular fa-lightbulb"></i>&nbsp;Features</h3>
+        <ul>
+            <li>User-friendly Django interface for encoding and decoding.</li>
+            <li>Robust against image compression, resizing, and noise.</li>
+            <li>High payload capacity with negligible visual distortion.</li>
+            <li>Integration with MySQL for admin authentication and tracking.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="color: #3498db;"><i class="fa-solid fa-chart-line"></i> &nbsp;Result</h3>
+        <p>
+            Achieved >90% accuracy in message recovery even after image degradation.
+            Stego-images remained visually indistinguishable from cover images.
+            Successfully handled various test cases like different formats, noise addition, and JPEG compression.
+        </p>
+      </div>
+      <div class="applications">
+        <h3 style="color: #3498db;"><i class="fa-solid fa-lock"></i>&nbsp; Applications</h3>
+        <ul>
+            <li>Secure communication in military and corporate fields.</li>
+            <li>Digital watermarking and copyright protection.</li>
+            <li>Confidential file transfer in untrusted environments.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="project-section" id="crop">
+      <h2><i class="fa-solid fa-seedling" style="color: green;"></i>&nbsp;Crop Recommender System</h2>
+      <p class="project-desc">
+        The Crop Recommender System is a machine learning-based web application that helps farmers or 
+        agricultural stakeholders choose the most suitable crop based on key environmental and soil parameters. 
+        It increases agricultural productivity by providing scientific and data-driven recommendations.
+      </p>
+      <a href="https://github.com/ShivaniBandapalli/Crop-Recommender-System-Using-ML-Approach" style="color: green; text-decoration: none;">GitHub<i class="fab fa-github"></i></a>
+      <div class="swiper project-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/images/projects/crop.png" alt="Screenshot 1"></div>
+          <div class="swiper-slide"><img src="/images/projects/crop2.png" alt="Screenshot 2"></div>
+          <div class="swiper-slide"><img src="/images/projects/crop4.png" alt="Screenshot 3"></div>
+          <div class="swiper-slide"><img src="/images/projects/crop5.png" alt="Screenshot 4"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="techstack">
+        <h3 style="color: green;"><i class="fa-solid fa-code"></i> &nbsp;&nbsp;Tech Stack</h3>
+        Python, Pandas, Scikit-learn, Flask, HTML/CSS, JavaScript, Jupyter Notebook.
+      </div>
+      <div class="features">
+        <h3 style="color: green;"><i class="fa-regular fa-lightbulb"></i>&nbsp;Features</h3>
+        <ul>
+            <li>
+                Predicts the best crop using classification algorithms based on:
+                <ul>
+                    <li>Nitrogen (N), Phosphorus (P), Potassium (K) levels in soil</li>
+                    <li>Temperature, Humidity, pH, and Rainfall</li>
+                </ul>
+            </li>
+            <li>
+                Implements and compares multiple ML models like:
+                <ul>
+                    <li>Decision Tree</li>
+                    <li>Random Forest</li>
+                    <li>Naive Bayes</li>
+                    <li>Support Vector Machine (SVM)</li>
+                </ul>
+            </li>
+            <li>Provides the most accurate model result to the user through an interactive web interface.</li>
+            <li>User-friendly UI built using Flask + HTML/CSS + JS.</li>
+            <li>Model trained on a well-structured agricultural dataset.</li>
+        </ul>
+      </div>
+      <div class="result">
+        <h3 style="color: green;"><i class="fa-solid fa-chart-line"></i> &nbsp;Result</h3>
+        <p>Achieved an accuracy of over 95% using the Random Forest algorithm. The system offers real-time, reliable crop suggestions which can significantly enhance yield and profitability.</p>
+      </div>
+    </section>
+
+     <section class="project-section" id="iris">
+      <h2><i class="fa-solid fa-spa" style="color: purple;"></i>&nbsp;Iris Flower classification- ML Web App</h2>
+      <p class="project-desc">
+        An interactive machine learning project that classifies iris flowers into three species (Setosa, Versicolor, Virginica) based 
+        on sepal and petal dimensions. The model was trained using the famous Iris dataset and deployed as a user-friendly web application using Render.
+      </p>
+      <a href="https://github.com/ShivaniBandapalli/IRIS-Classification" style="color:purple; text-decoration: none;">GitHub<i class="fab fa-github"></i></a>
+      &nbsp;&nbsp;<a href="https://iris-deployment-pnan.onrender.com/" style="color: purple; text-decoration: none;">Go Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      <div class="swiper project-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/images/projects/iris3.png" alt="Screenshot 1"></div>
+          <div class="swiper-slide"><img src="/images/projects/iris1.png" alt="Screenshot 2"></div>
+          <div class="swiper-slide"><img src="/images/projects/iris2.jpg" alt="Screenshot 3"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="techstack">
+        <h3 style="color: purple;"><i class="fa-solid fa-code"></i> &nbsp;&nbsp;Tech Stack</h3>
+        Python,Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Streamlit, Render
+      </div>
+      <div class="features">
+        <h3 style="color: purple;"><i class="fa-regular fa-lightbulb"></i>&nbsp;Features</h3>
+        <ul>
+            <li><b>User input fields</b> for sepal & petal length/width (via sliders or number boxes)</li>
+            <li><b>Predicts iris species</b> (Setosa, Versicolor, or Virginica) using a trained ML model</li>
+            <li><b>Real-time prediction </b>output displayed instantly</li>
+            <li> Simple, interactive UI</li>
+            <li>End-to-end ML pipeline integration (preprocessing → prediction)</li>
+
+        </ul>
+      </div>
+      <div class="result">
+        <h3 style="color: purple;"><i class="fa-solid fa-chart-line"></i> &nbsp;Results</h3>
+        <p>
+            Achieved high accuracy (typically above 95%) using SVM and KNN classifiers.
+            Successfully deployed the classification model in a Jupyter Notebook environment with clearly documented code and plots.
+        </p>
+      </div>
+    </section>
+
+     <section class="project-section" id="movie">
+      <h2><i class="fa-solid fa-clapperboard"></i>&nbsp;Movie Recommendation System</h2>
+      <p class="project-desc">
+         A Content-Based Movie Recommendation System that suggests movies similar to a user's selected movie.
+        It uses metadata like genres, keywords, cast, crew, and movie overviews to compute similarity between films.
+      </p>
+      <a href="https://github.com/ShivaniBandapalli/Movie-Recommendation" style="color:#112240; text-decoration: none;">GitHub<i class="fab fa-github"></i></a>
+      &nbsp;&nbsp;<a href="https://shivanibandapalli-movie-recommendation-app-vurnif.streamlit.app/" style="color: #112240; text-decoration: none;">Go Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      <div class="swiper project-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/images/projects/movie1.jpeg" alt="Screenshot 1"></div>
+          <div class="swiper-slide"><img src="/images/projects/movie2.png" alt="Screenshot 2"></div>
+          <div class="swiper-slide"><img src="/images/projects/movie3.png" alt="Screenshot 3"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="techstack">
+        <h3 style="color: #112240;"><i class="fa-solid fa-code" style="color: #112240;"></i> &nbsp;&nbsp;Tech Stack</h3>
+        <ul>
+            <li><b>Frontend/UI:</b> Streamlit</li>
+            <li><b>Backend: </b>Python</li>
+            <li><b>Libraries:</b> Pandas, NumPy, Scikit-learn, Pickle, Requests, TMDB API</li>
+            <li><b>Model: </b>Content-Based Filtering</li>
+        </ul>
+      </div>
+      <div class="features">
+        <h3 style="color: #112240;"><i class="fa-regular fa-lightbulb"></i>&nbsp;Features</h3>
+        <ul>
+            <li><b>Movie Selection Dropdown</b>-Users can select a movie from a list of titles.</li>
+            <li><b>Content-Based Filtering</b>-Recommends movies based on cosine similarity of content vectors (genre, cast, keywords, etc.).</li>
+            <li><b>Poster Display</b>-Each recommended movie is shown with its official movie poster fetched dynamically from the TMDB API.</li>
+            <li><b>Similarity Score Calculation</b>-Uses TF-IDF Vectorizer or CountVectorizer to convert text metadata into numeric vectors.</li>
+            <li><b>Preprocessed Movie Dataset</b>-A cleaned dataset with features like title, genre, cast, overview, and tags is used to ensure high-quality results.</li>
+            <li><b>Efficient Search & Retrieval</b>-Cosine similarity matrix is used to retrieve top N similar movies in milliseconds.</li>
+        </ul>
+      </div>
+      <div class="result">
+        <h3 style="color: #112240;"><i class="fa-solid fa-chart-line"></i> &nbsp;Result</h3>
+        <p>
+            Provides fast and visually appealing movie recommendations,
+            Demonstrates understanding of NLP techniques and content-based recommender systems
+            Deployed as an interactive web app using Streamlit
+        </p>
+      </div>
+    </section>
+
+     <section class="project-section" id="tictactoe">
+      <h2><span style="color: teal;">X O</span>&nbsp;Tic-Tac-Toe</h2>
+      <p class="project-desc">
+        A simple Tic Tac Toe game built using pure HTML, CSS, and JavaScript. It allows two players to take turns marking X and O on a 3x3 grid. 
+        The game handles turn switching, win/draw detection, and offers a reset option for replaying. Designed with a clean and responsive layout using basic web technologies.
+      </p>
+      <a href="https://github.com/ShivaniBandapalli/Tic-Tac-Toe-game" style="color: teal; text-decoration: none;">GitHub<i class="fab fa-github"></i></a>
+      &nbsp;&nbsp; <a href="https://shivanibandapalli.github.io/Tic-Tac-Toe-game/" style="color: teal; text-decoration: none;">Go Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      <div class="swiper project-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/images/projects/tic1.png" alt="Screenshot 1"></div>
+          <div class="swiper-slide"><img src="/images/projects/tic2.png" alt="Screenshot 2"></div>
+          <div class="swiper-slide"><img src="/images/projects/tic3.png" alt="Screenshot 3"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="techstack">
+        <h3 style="color: teal;"><i class="fa-solid fa-code"></i> &nbsp;&nbsp;Tech Stack</h3>
+          HTML ,CSS, JavaScript.
+      </div>
+    </section>
+    <!-- Add more projects as needed -->
+
+  </main>
+  
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" title="Go to top">↑</button>
+  <footer>
+    <p>© 2025 Shivani | All Rights Reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="/js/show.js"></script>
+</body>
+</html>
